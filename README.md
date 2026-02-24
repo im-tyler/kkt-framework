@@ -1,2 +1,2 @@
 # kkt-framework
-KKT Geodesic Framework: Klein bottle Kaluza-Klein theory with a₀ = cH₀/(2π) — code, data, and verification scripts
+KKT Geodesic Framework: Kaluza-Klein-T with a₀ = cH₀/(2π) — Theory and Observational Tests

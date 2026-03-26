@@ -5,6 +5,8 @@ Code and data repository for:
 **KKT Geodesic Framework: Kaluza-Klein-T with a₀ = cH₀/(2π) — Theory and Observational Tests**  
 Tyler (2026)
 
+
+Disclaimer: Created with Opus 4.6 High, Validated with Codex 5.3 xHigh
 Preprint: https://doi.org/10.5281/zenodo.18753081
 
 ## Contents
@@ -40,8 +42,6 @@ Expected output: 56 PASS, minor warnings on conjectured quantities.
 
 ## Key result
 The KKT quadrature formula v(y) = sqrt(1 + 1/y) with a0 = cH0/(2pi) outperforms simple MOND on 66% of SPARC galaxies (171 galaxies, >= 5 data points) with zero free parameters at the theory level.
-
-Disclaimer: Created with Opus 4.6 High, Validated with Codex 5.3 xHigh
 
 ## License
 MIT

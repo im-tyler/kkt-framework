@@ -7,6 +7,7 @@ Tyler (2026)
 
 
 Disclaimer: Created with Opus 4.6 High, Validated with Codex 5.3 xHigh
+
 Preprint: https://doi.org/10.5281/zenodo.18753081
 
 ## Contents

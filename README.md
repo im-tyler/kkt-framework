@@ -6,7 +6,7 @@ Code and data repository for:
 Tyler (2026)
 
 
-Disclaimer: Created with Opus 4.6 High, Validated with Codex 5.3 xHigh
+Disclaimer: Created with Opus 4.6 High, Validated with Codex 5.3 xHigh. Statistics corrected and re-verified with GLM 5.3, September 2026 (preprint v4).
 
 Preprint: https://doi.org/10.5281/zenodo.18753081
 
@@ -39,10 +39,10 @@ pip install numpy scipy matplotlib
 ```bash
 python scripts/kk_verify_all.py
 ```
-Expected output: 56 PASS, minor warnings on conjectured quantities.
+Expected output: 56 PASS, 3 warnings on conjectured quantities, 1 notation-level failure (binary pulsar order of magnitude).
 
 ## Key result
-The KKT quadrature formula v(y) = sqrt(1 + 1/y) with a0 = cH0/(2pi) outperforms simple MOND on 66% of SPARC galaxies (171 galaxies, >= 5 data points) with zero free parameters at the theory level.
+At the same fixed a0 = cH0/(2pi), the KKT quadrature formula v(y) = sqrt(1 + 1/y) outperforms simple MOND on 58% of SPARC galaxies (101/175; total delta chi^2 = -2038). This preference is configuration-dependent: MOND with one free a0 fits better (delta chi^2 = -1780, implied H0 = 40.2 — unphysical), and a generalized composition exponent beta is preferred at 1.65 (95% CI 1.55-1.80), excluding both the KK and MOND-simple functional forms. See `sparc_tests_abc.py` (Tests A/B/C) and preprint v4.
 
 ## License
 MIT
